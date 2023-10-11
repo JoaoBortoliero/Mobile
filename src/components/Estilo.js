@@ -12,6 +12,9 @@ export default StyleSheet.create({
         fontSize: 35,
         fontWeight: "bold",
     },
+    textFlatList: {
+        fontSize: 20,
+    },
     loginContainer:{
         flex: 1,
         justifyContent: "center",   
@@ -49,9 +52,20 @@ export default StyleSheet.create({
     loginImageLogo:{
         width: 300,
         height: 300,
-        
+    },
+    formInputDescription:{
+        fontSize: 22,
+    },
+    formInput:{
+        fontSize: 22,
+        backgroundColor: "gray",
+    },
+    formContainer:{
+        marginLeft: 20,
+        marginTop: 5,
+        marginRight: 22
+    },
+    formButtonSubmit:{
+        marginTop: 20,
     }
-
-
-
 })
